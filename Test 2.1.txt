@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main() {
+   int x,n,r ;
+   printf("enter the value of x :",x);
+   scanf("%d",&x);
+   printf("enter the value of n :",n);
+   scanf("%d",&n);
+   printf("enter the choice :",r);
+   scanf("%d",&r);
+   switch(r){
+       case 0: 
+       printf("the value is : %d", pow(x,n));
+       break;
+       case 1:
+       printf("the value is : %d",x + n);
+       break;
+       case 2:
+       printf("the value is : %d" , x-n);
+       break;
+       case 3:
+       printf("the value is : %d", x*n);
+       break;
+       case 4:
+       printf("the value is : %d", x/n);
+       break;
+      
+   }
+return 0;
+}
+
